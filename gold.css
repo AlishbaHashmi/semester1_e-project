@@ -1,0 +1,12 @@
+
+#imgdiv{
+    display: flex;
+    justify-content: center;
+  }
+  .images{
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+   
+  }

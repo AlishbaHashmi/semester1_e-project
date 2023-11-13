@@ -1,0 +1,631 @@
+/* logo */
+#logop{
+  color: rgb(220, 176, 63);
+  margin-top: 8px;
+  font-weight: bold;
+}
+/* navbar */
+.navbar{
+  background-color: rgb(254, 239, 223) !important;
+  border: 3px groove rgb(244, 179, 109);
+}
+.navbar-brand{
+  color: rgb(213, 174, 74) !important;
+}
+
+.nav-links:hover{
+  font-weight: bolder !important;
+}
+.nav-item{
+   display: flex !important;
+   align-items: center!important;
+}
+.bi{
+  color: black !important;
+}
+
+/* shipping */
+.div1{
+  background-color:white;
+
+}
+.div3{
+ background-color: white ;
+ color:rgb(229, 103, 103);
+ font-size: medium;
+ font-style: normal;
+ font-weight: 500;
+ 
+}
+/* quote */
+.p1{
+    color: black;
+    font-weight: bolder;
+    background-color:  rgb(254, 239, 223);
+}
+.divp{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+/* card */
+.parentcard{
+  display: flex;
+  justify-content: center;
+}
+.card:hover{
+  border: 4px solid rgb(154, 154, 154);
+}
+.card{
+  margin: 35px;
+  border-radius: 5px;
+}
+.card-text{
+  font-weight: 100;
+  margin: 4px;
+  font-size: 13px;
+}
+.card-title{
+  margin: 4px;
+}
+.cardh5{
+  margin: 4px;
+}
+.btn{
+  background-color: rgb(254, 239, 223) !important;
+  color: black !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.btn:hover{
+  background-color: rgb(173, 167, 167) !important;
+  color: white !important;
+}
+
+.cart{
+  background-color: rgb(254, 239, 223);
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+.cart:hover{
+  background-color: rgb(173, 167, 167);
+  color: white;
+  font-size: large;
+ 
+}
+.child1{
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  margin: 10px;
+  border-radius: 150px;
+}
+/* main images */
+#imgdiv{
+  display: flex;
+   justify-content: center;
+}
+.images{
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+ 
+}
+.images:hover{
+  border: 4px solid rgb(154, 154, 154);
+}
+.parenthead{
+  display: flex;
+  justify-content: center;
+}
+.text{
+  margin: 4px;
+  margin-left: 60px;
+  text-decoration:double underline;
+  color: black;
+}
+.text1{
+  margin: 4px;
+  margin-left: 57px;
+  text-decoration:double underline;
+  color: black;
+}
+.text2{
+  margin: 4px;
+  margin-left: 40px;
+  text-decoration:double underline;
+  color: black;
+}
+.main-heading{
+  font-size: 37px;
+ font-weight: 500;
+  
+}
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+.footer-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ulf{
+  list-style: none;
+}
+.footer{
+  border: 3px groove rgb(244, 179, 109);
+  background-color: rgb(254, 239, 223);
+  padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 21px;
+  color: black;
+  font-weight: bold;
+  text-decoration:double underline;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4 ::before{
+  content: '';
+  position:absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: black;
+  padding-left: 8px;
+  font-weight: bold;
+}
+.footer-col .social-link a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color:black;
+  transition: all 0.5s ease;
+}
+.footer-col .social-link a:hover{
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+/* responsive footer */
+@media(max-width :767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media(max-width :574px){
+  .footer-col{
+    width: 100%;
+  }
+}
+/* our services */
+.tt{
+  background-color: rgb(234, 188, 172);
+  color: black;
+  display: flex;
+  justify-content: center;
+  border-radius: rgb(142, 56, 28);
+}
+#ff{
+  background-color: rgb(221, 201, 195);
+  display: flex;
+  justify-content: center;
+ border: rgb(189, 120, 94);
+}
+#kk{
+  background-color: rgb(254, 237, 216);
+}
+/* privacy policy */
+#tt{
+  background-color: rgb(234, 210, 178);
+  color:black;
+}
+/* ABOUT US */
+
+.h{
+  font-style: italic;
+  font-size: 26px;
+  margin-right:75px ;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: double underline;
+}
+.h:hover{
+  font-weight: bolder;
+}
+
+h3{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-right: 85px;
+}
+h3:hover{
+  font-weight: bold;
+}
+.bgimage{
+  width: 1300px;
+  height: 650px;
+  position: relative;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  border-radius: 100%;
+  border: 3px groove rgb(226, 150, 73);
+  display: flex;
+  justify-content: right;
+  padding-top: 150px;
+}
+.mypara{
+  font-size: 22px;
+  margin-right: 70px;
+}
+.aboutbtn{
+  color:black;
+  font-size: 18px;
+}
+.aboutbtn:hover{
+  font-weight: bold;
+  }
+/* faq page */
+.head{
+  font-family: 'Times New Roman';
+  text-decoration: double underline;
+  display: flex;
+  font-size: 45px;
+}
+.faq{
+  background-color: rgb(250, 225, 200);
+  padding-left: 95px;
+  padding-top: 30px;
+}
+.minih{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: underline;
+}
+/* buttons */
+.homebtn{
+color:black;
+  font-size: 18px;
+}
+.faqbtn{
+   color:black;
+  font-size: 18px;
+}
+
+.btns{
+  padding-left: 2px;
+}
+.homebtn:hover{
+font-weight: bold;
+}
+.faqbtn:hover{
+  font-weight: bold;
+}
+/* disclaimer page */
+.disclaimer{
+  background-color: rgb(250, 225, 200);
+  padding-left: 95px;
+  padding-top: 30px;
+}
+.disbtn:hover{
+  font-weight: bold;
+}    
+.disbtn{
+  color:black;
+font-size: 18px;
+}
+/* return and exchange page */
+.return{
+  background-color: rgb(250, 225, 200);
+  padding-left: 95px;
+  padding-top: 30px;
+}
+.retbtn{
+  color:black;
+  font-size: 18px; 
+}
+.retbtn:hover{
+  font-weight: bold;
+}
+/* shipping page */
+.shipbtn{
+  color:black;
+  font-size: 18px; 
+}
+.shipbtn:hover{
+  font-weight: bold;
+}
+.shipping{
+  background-color: rgb(250, 225, 200);
+  padding-left: 95px;
+  padding-top: 30px;
+}
+
+/* main page cards */
+.card1img{
+  padding: 20px;
+  height: 500px;
+  width: 700px;
+}
+.divtext{
+  padding-top: 20px;
+  width: 400px;
+}
+.maindiv{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+#number{
+  width: 25px;
+  border: 1px solid lightgray;
+  
+}
+.valuebtn{
+  width: 20px;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.ss{
+  width: 500px !important;
+}
+#d2{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: rgb(249, 223, 192);
+}
+
+/* responsive  */
+@media (max-width: 768px){
+  .maindiv{
+    display: block;
+  }
+  .imgdiv1{
+    width: 100%;
+  }
+  .divtext{
+    width: 100%;
+  }
+  .card1img{
+    width: 100%;
+  }
+  .carousel-inner{
+    display: block;
+}
+  #main{
+    width: 100%;
+  }
+  .divp{
+    display: block;
+  }
+  .p1{
+    width: 100%;
+  }
+  
+  .imgdiv{
+    display: block;
+}
+ .images{
+  width:100% ;
+ }
+}
+
+@media (min-width: 769px) and (max-width: 1023px){
+  .card1img{
+    width: 100%;
+  }
+  .carousel-inner{
+    display: block;
+}
+  #main{
+    width: 100%;
+  }
+  .divp{
+    display: block;
+  }
+  .p1{
+    width: 100%;
+  }
+  .parentcard{
+    width: 100%;
+  }
+  .imgdiv{
+    display: block;
+}
+ .images{
+  width:100% ;
+ }
+}
+
+/* responsive feedback */
+.radio-inline{
+  margin: 0px 40px 20px 0px;
+  cursor: pointer;
+}
+.label{
+  color: #000;
+}
+#text{
+  font-weight: bolder;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  width: 100%;
+  color: #000;
+}
+#message{
+  
+  font-weight: bolder;
+ border-radius: 5px;
+  padding: 10px 0px 0px 15px ;
+  color: #000;
+  font-size: 16px;
+  width: 100%;
+}
+.body2{
+  background-color: antiquewhite;
+}
+/* silver footer page */
+.silquote{
+  width: 100%;
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+  .myimage img{
+    width: 300px;
+    height: 200px;
+  }
+  .head{
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    line-height: 1.7;
+  }
+  .head:hover{
+    font-weight: bold;
+    color: purple;
+  }
+  h3:hover{
+    font-weight: bold;
+    color: brown;
+  }
+  .silbody{
+  background-image: url(./myimg2.jpg);
+  text-align: justify;
+  }
+  /* gold footer page */
+.goldquote{
+  width: 100%;
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+  .myimage img{
+    width: 300px;
+    height: 200px;
+  }
+  .head{
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    line-height: 1.7;
+  }
+  .head:hover{
+    font-weight: bold;
+    color: purple;
+  }
+  h3:hover{
+    font-weight: bold;
+    color: brown;
+  }
+  .goldbody{
+  background-image: url(./myimg2.jpg);
+  text-align: justify;
+  }
+  /* diam footer page */
+.diamquote{
+  width: 100%;
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+  .myimage img{
+    width: 300px;
+    height: 200px;
+  }
+  .head{
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    line-height: 1.7;
+  }
+  .head:hover{
+    font-weight: bold;
+    color: purple;
+  }
+  h3:hover{
+    font-weight: bold;
+    color: brown;
+  }
+  .diambody{
+  background-image: url(./myimg2.jpg);
+  text-align: justify;
+  }
+  /* artificial footer page */
+.artiquote{
+  width: 100%;
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+  .myimage img{
+    width: 300px;
+    height: 200px;
+  }
+  .head{
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    line-height: 1.7;
+  }
+  .head:hover{
+    font-weight: bold;
+    color: purple;
+  }
+  h3:hover{
+    font-weight: bold;
+    color: brown;
+  }
+  .artibody{
+  background-image: url(./myimg2.jpg);
+  text-align: justify;
+  }
